@@ -5,7 +5,7 @@ defmodule KSQL.MixProject do
     [
       app: :ksql,
       description: "Elixir KSQL client library.",
-      version: "0.0.1-rc0",
+      version: "0.0.1-proto0",
       elixir: "~> 1.7",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
